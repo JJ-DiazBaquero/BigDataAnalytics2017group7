@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Technology]]></title>
+        <description><![CDATA[BBC News - Technology]]></description>
+        <link>http://www.bbc.co.uk/news/</link>
+        <image>
+            <url>http://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Technology</title>
+            <link>http://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 28 Feb 2017 18:39:59 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Bad bug found in Microsoft browsing code]]></title>
+            <description><![CDATA[If exploited, the bug could let attackers run their own code on victims' machines.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39114101</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39114101</guid>
+            <pubDate>Tue, 28 Feb 2017 11:45:36 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/160E7/production/_93534309_whatsubject.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Google robot leaps and spins with leg-wheels]]></title>
+            <description><![CDATA[Handle - a human-sized robot that can travel over uneven surfaces and jump over obstacles - makes its debut.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39116876</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39116876</guid>
+            <pubDate>Tue, 28 Feb 2017 12:47:28 GMT</pubDate>
+            <media:thumbnail width="1024" height="575" url="http://c.files.bbci.co.uk/180B7/production/_94878489_p04v9vtk.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Children's messages in CloudPets data breach]]></title>
+            <description><![CDATA[More than 2 million voice messages left between parents and children exposed, security researcher claims.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39115001</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39115001</guid>
+            <pubDate>Tue, 28 Feb 2017 13:03:11 GMT</pubDate>
+            <media:thumbnail width="464" height="261" url="http://c.files.bbci.co.uk/0B1F/production/_94874820_mediaitem94874819.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Man jailed for hitting woman with drone]]></title>
+            <description><![CDATA[The pilot of a drone that knocked a woman unconscious has been jailed for 30 days in the US.]]></description>
+            <link>http://www.bbc.co.uk/news/39114691</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/39114691</guid>
+            <pubDate>Tue, 28 Feb 2017 11:28:39 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/6FA1/production/_94877582_dronebeach.gif"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Google Home speaker to launch in UK by June]]></title>
+            <description><![CDATA[Google's smart speaker will compete against Amazon's Echo in the UK this summer.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39113595</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39113595</guid>
+            <pubDate>Tue, 28 Feb 2017 11:59:19 GMT</pubDate>
+            <media:thumbnail width="1639" height="922" url="http://c.files.bbci.co.uk/175B3/production/_94876659_mediaitem94876658.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Wikipedia goes data-free in Iraq]]></title>
+            <description><![CDATA[People will not have to pay mobile data charges to access the online encyclopaedia.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39101877</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39101877</guid>
+            <pubDate>Tue, 28 Feb 2017 00:18:15 GMT</pubDate>
+            <media:thumbnail width="464" height="261" url="http://c.files.bbci.co.uk/06FA/production/_94868710_gettyimages-634462192.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[SpaceX to fly two tourists around Moon in 2018]]></title>
+            <description><![CDATA[The US rocket company says the customers have already paid for the flight planned for late 2018.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-39111030</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-39111030</guid>
+            <pubDate>Mon, 27 Feb 2017 23:48:09 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/144B7/production/_94872138_moon_spl.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: DJI drones use plane avoidance tech]]></title>
+            <description><![CDATA[DJI's latest industrial drones use technology that warns if larger aircraft are nearby.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39106520</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39106520</guid>
+            <pubDate>Mon, 27 Feb 2017 16:58:43 GMT</pubDate>
+            <media:thumbnail width="960" height="540" url="http://c.files.bbci.co.uk/16496/production/_94868219_mediaitem94868118.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[BT landline-only customers set to get £5 off monthly bills]]></title>
+            <description><![CDATA[Customers who only buy a landline service from BT are not getting value for money, Ofcom says.]]></description>
+            <link>http://www.bbc.co.uk/news/business-39112871</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-39112871</guid>
+            <pubDate>Tue, 28 Feb 2017 14:45:36 GMT</pubDate>
+            <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/8F6E/production/_92781763_l390ks4d.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: '22,000 hackable webcams in Barcelona']]></title>
+            <description><![CDATA[A security firm finds nearly 100,000 hackable smart devices in the city hosting Mobile World Congress.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39101533</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39101533</guid>
+            <pubDate>Mon, 27 Feb 2017 13:35:20 GMT</pubDate>
+            <media:thumbnail width="1064" height="598" url="http://c.files.bbci.co.uk/432B/production/_94859171_mediaitem94859170.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Huawei P10 has smarter selfie and rear cameras]]></title>
+            <description><![CDATA[Huawei enhances the cameras of its latest flagship phone by using software to analyse what is being photographed.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39095126</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39095126</guid>
+            <pubDate>Sun, 26 Feb 2017 13:53:15 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/296D/production/_94850601_mediaitem94850600.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: DJI M200 drone works in rain and winds]]></title>
+            <description><![CDATA[A new drone is being pitched to business that want to safely carry out inspections from the sky.]]></description>
+            <link>http://www.bbc.co.uk/news/39116880</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/39116880</guid>
+            <pubDate>Tue, 28 Feb 2017 16:21:29 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/C14F/production/_94878494_p04vbnv2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Google Home challenges Amazon Echo]]></title>
+            <description><![CDATA[Google suggests its expertise in search will help its Home speaker triumph over Amazon's Echo.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39116873</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39116873</guid>
+            <pubDate>Tue, 28 Feb 2017 11:42:29 GMT</pubDate>
+            <media:thumbnail width="1024" height="575" url="http://c.files.bbci.co.uk/DD5B/production/_94876665_p04v9mpy.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWS 2017: 5G - the next mobile revolution]]></title>
+            <description><![CDATA[The next-generation 5G mobile network causes lots of excitement at the Mobile World Congress trade show.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39113592</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39113592</guid>
+            <pubDate>Tue, 28 Feb 2017 09:39:19 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/F9C1/production/_94873936_p04v95xt.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Will Nokia phones be bestsellers again?]]></title>
+            <description><![CDATA[The worldwide launch of Nokia-branded Android smartphones marks a bold bet to revive the business.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39101538</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39101538</guid>
+            <pubDate>Mon, 27 Feb 2017 13:26:59 GMT</pubDate>
+            <media:thumbnail width="1024" height="574" url="http://c.files.bbci.co.uk/54DE/production/_94862712_p04v65bg.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Sony smartphone films in super-slow-motion]]></title>
+            <description><![CDATA[A new type of smartphone sensor that can film at 960 frames per second is featured in a new handset from Sony.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39098184</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39098184</guid>
+            <pubDate>Mon, 27 Feb 2017 07:45:29 GMT</pubDate>
+            <media:thumbnail width="1024" height="574" url="http://c.files.bbci.co.uk/12E85/production/_94854477_p04v3kxv.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Nokia's classic 3310 phone is reborn at MWC]]></title>
+            <description><![CDATA[A revamped version of one of the most admired mobile phones is unveiled alongside a range of Nokia-branded smartphones.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39097332</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39097332</guid>
+            <pubDate>Sun, 26 Feb 2017 16:30:33 GMT</pubDate>
+            <media:thumbnail width="1280" height="720" url="http://c.files.bbci.co.uk/4295/production/_94854071_mediaitem94854070.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Londoner accidentally gets Uber to Croydon, via Bristol]]></title>
+            <description><![CDATA[Uber is refunding the £467 taxi fee as a "goodwill" gesture, describing the trip of 280 miles as an "unfortunate mistake".]]></description>
+            <link>http://www.bbc.co.uk/newsbeat/articles/39115466</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/newsbeat/articles/39115466</guid>
+            <pubDate>Tue, 28 Feb 2017 14:43:44 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1717B/production/_94878549_screengrab2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Google brings Assistant to more Android phones]]></title>
+            <description><![CDATA[Google's digital assistant will soon be available on other firm's smartphones running the latest versions of Android.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39096355</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39096355</guid>
+            <pubDate>Sun, 26 Feb 2017 12:47:07 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/D74B/production/_94851155_ga1.png"/>
+        </item>
+        <item>
+            <title><![CDATA[BBC reporter v Game of Thrones' Bjornsson]]></title>
+            <description><![CDATA[As computer game For Honor is released, Marc Cieslak and Hafthor Bjornsson test their strength.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-38919305</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-38919305</guid>
+            <pubDate>Fri, 10 Feb 2017 11:07:38 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/F59A/production/_94247826_p04sdgvn.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The flatpack robot that could explore planets]]></title>
+            <description><![CDATA[A new generation of Super Ball robots could help us explore planets.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-38801377</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-38801377</guid>
+            <pubDate>Tue, 07 Feb 2017 08:55:09 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/16C3/production/_93872850_p04rb3y0.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How a Nasa Starshade could help find exoplanets]]></title>
+            <description><![CDATA[BBC Click's Spencer Kelly finds out how a giant shade could help find evidence of life on other planets.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-38772553</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-38772553</guid>
+            <pubDate>Fri, 03 Feb 2017 11:10:18 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/143CD/production/_93839828_p04r0msv.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The drone selfie camera and other news]]></title>
+            <description><![CDATA[BBC Click's Marc Cieslak looks at some of the best of the week's technology news.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-38854871</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-38854871</guid>
+            <pubDate>Fri, 03 Feb 2017 10:32:10 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/F5AD/production/_93939826_p04rrrdr.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cybercrime underground]]></title>
+            <description><![CDATA[Malware researcher Anton talks about who does what in the web's dark marketplaces.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-38755584</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-38755584</guid>
+            <pubDate>Thu, 23 Feb 2017 01:24:13 GMT</pubDate>
+            <media:thumbnail width="624" height="351" url="http://news.bbcimg.co.uk/media/images/70372000/jpg/_70372559_viruys.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Car wars]]></title>
+            <description><![CDATA[A row has broken out over who should control access to all the data your new car generates.]]></description>
+            <link>http://www.bbc.co.uk/news/business-39103150</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-39103150</guid>
+            <pubDate>Tue, 28 Feb 2017 01:04:48 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/16EBE/production/_94868839_thinkstockphotos-628110800.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Finding drugs faster]]></title>
+            <description><![CDATA[How cloud computing is speeding up the development of potentially life-saving drugs.]]></description>
+            <link>http://www.bbc.co.uk/news/business-39026239</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-39026239</guid>
+            <pubDate>Tue, 21 Feb 2017 00:08:28 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/EF50/production/_94746216_thinkstockphotos-641513508.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hacking toasters]]></title>
+            <description><![CDATA[How do you make home appliances safe from hackers? Computer security expert Mikko Hypponen has a plan.]]></description>
+            <link>http://www.bbc.co.uk/news/magazine-38999403</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/magazine-38999403</guid>
+            <pubDate>Tue, 21 Feb 2017 00:45:29 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/7AE8/production/_94746413_p04tj8j7.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Talking to the machine]]></title>
+            <description><![CDATA[The story behind the compiler, a remarkable innovation that made modern computing possible.]]></description>
+            <link>http://www.bbc.co.uk/news/business-38677721</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-38677721</guid>
+            <pubDate>Mon, 20 Feb 2017 01:47:50 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/446A/production/_94741571_gracehgettyimages-514950046.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sky jam]]></title>
+            <description><![CDATA[UK air traffic control is investing £600m in a new cloud-based system to cope with rising demand.]]></description>
+            <link>http://www.bbc.co.uk/news/business-38954676</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-38954676</guid>
+            <pubDate>Fri, 17 Feb 2017 00:05:13 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/982D/production/_94675983_gettyimages-463770790.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Distracted to death]]></title>
+            <description><![CDATA[Drivers using mobile phones on the road are four times more likely to have an accident - but can apps also make us safer?]]></description>
+            <link>http://www.bbc.co.uk/news/business-38954975</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-38954975</guid>
+            <pubDate>Tue, 14 Feb 2017 00:00:41 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/179C9/production/_94631769_safedrive1-tudorcobalas.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Nokia 3310 mobile phone resurrected at MWC 2017]]></title>
+            <description><![CDATA[An iconic Nokia phone is revamped with added battery life and new features alongside several Nokia-branded Android models.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39095127</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39095127</guid>
+            <pubDate>Sun, 26 Feb 2017 16:30:03 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/185FB/production/_94853899_001.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Sony launches slow-mo Xperia XZ Premium phone]]></title>
+            <description><![CDATA[A new type of image sensor allows the latest Xperia smartphone to capture video at a record 960 frames per second.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39098186</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39098186</guid>
+            <pubDate>Mon, 27 Feb 2017 07:45:47 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/10293/production/_94859166_2e76d437-ba13-4b10-9f99-205d3d284689.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: Samsung unveils two new tablets but no phone]]></title>
+            <description><![CDATA[The South Korean tech firm has traditionally launched a new smartphone at the Mobile World Congress tech show.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39096535</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39096535</guid>
+            <pubDate>Sun, 26 Feb 2017 20:18:09 GMT</pubDate>
+            <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/10B5D/production/_94854486_mediaitem94854485.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[MWC 2017: LG G6 phone is made for split-screen apps]]></title>
+            <description><![CDATA[LG abandons the modular design of its last flagship phone and unveils the G6 with an unusual-sized display.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39095120</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39095120</guid>
+            <pubDate>Sun, 26 Feb 2017 12:03:56 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/161ED/production/_94850609_002.jpg"/>
+        </item>
+    </channel>
+</rss>

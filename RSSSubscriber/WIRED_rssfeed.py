@@ -11,23 +11,18 @@ import xml.etree.ElementTree
 #url = sys.argv[2]
 
 feed_name = 'WIRED DESIGN'
-url = ['http://feeds.bbci.co.uk/news/technology/rss.xml', 'https://www.wired.com/category/tech/feed/', 'https://www.wired.com/category/design/feed/', 'https://www.wired.com/category/design/feed/']
+url = ['https://www.wired.com/category/tech/feed/', 'https://www.wired.com/category/design/feed/', 'https://www.wired.com/category/design/feed/']
 #url = 'https://www.wired.com/category/design/feed/'
-
-
-#target = open('wiredunifiedrss.xml', 'w')
-target = open('wireddesignrss.xml', 'w')
-target.truncate()
 
 def actualizarFuentes():
 
-    archivo_final = open ('consololidado.xml', 'w')
+    archivo_final = open ('consololidado_wired.xml', 'w')
     archivo_final.truncate()
     for xur in url:
         #
         #Construye los archivos que alimentan el arbol de elementos
         #
-        target = open('sample.xml', 'w')
+        target = open('sample_wired.xml', 'w')
         target.truncate() 
         #URLlib me permite leer el contenido 'raw' de una url, en este caso el xml del rss
         f = urllib.urlopen(xur)
@@ -39,12 +34,12 @@ def actualizarFuentes():
         target.write(str(f.read()))
         target.close()
         #Get node channel from the element
-        raiz = xml.etree.ElementTree.parse('sample.xml').getroot()
+        raiz = xml.etree.ElementTree.parse('sample_wired.xml').getroot()
         for child in raiz:
             for it in child:
                 #Si el elemento es un item, lo guarda en el consolidado general
                 if it.tag == 'item':
-                    print it.attrib
+                    print it.tag
                     archivo_final.write(xml.etree.ElementTree.tostring(it));
         
         #print c
