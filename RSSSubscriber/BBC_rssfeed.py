@@ -40,9 +40,10 @@ def actualizarFuentes():
                 if it.tag == 'item':
                     archivo_final.write(xml.etree.ElementTree.tostring(it));
         
-        #print c
-
-    
+        #print c    
+    archivo_final.close()
+    archivo_final = open('consololidado_bbc.xml', 'r')
+    print archivo_final.read()
     archivo_final.close();
 
 #Combinar fuentes en un solo XML que permita el filtrado por XQuery

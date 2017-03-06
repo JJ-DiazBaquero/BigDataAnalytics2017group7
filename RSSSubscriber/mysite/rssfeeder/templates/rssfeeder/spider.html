@@ -1,0 +1,79 @@
+<html>
+<title>Taller 1: Descucrimiento y Procesamiento Básico de Fuentes
+</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-opennav w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="./index" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOME</a>
+    <a href="./spider" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Spider</a>
+    <a href="./rssfeeds" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RSS Feeds</a>
+
+    <!--<div class="w3-hide-small w3-dropdown-hover">
+      <a href="javascript:void(0)" class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></a>     
+      <div class="w3-dropdown-content w3-white w3-card-4">
+        <a href="#">Merchandise</a>
+        <a href="#">Extras</a>
+        <a href="#">Media</a>
+      </div>
+    </div>-->
+  <!-- The Spider Section -->
+  <div class="w3-black" id="spider">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Resultados de Crawling</h2>
+      <p class="w3-opacity w3-center"><i> Directorio de personas vinculadas con Uniandes a partir de la información disponible
+en la Web de cada una de las dependencias académicas. Este directorio fue construido dinámicamente utilizando técnicas de crawling </i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Directorio </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+var BBCxml;
+
+function postData() {
+    $.ajax({
+        type: "POST",
+        //url: "https://raw.githubusercontent.com/jj-diaz1067/BigDataAnalytics2017group7/master/RSSSubscriber/BBC_rssfeed.py",
+        url: "BBC_rssfeed_nofile.py",
+        success: callbackFunc
+    });
+}
+
+function callbackFunc(response) {
+    // do something with the response
+    BBCxml =response;
+    console.log(response);
+}
+
+postData();
+
+function refrescarSuscripcion(){
+
+}
+function filtrarNoticias(){
+
+}
+</script>
+
+</body>
+</html>

@@ -11,7 +11,7 @@ import xml.etree.ElementTree
 #url = sys.argv[2]
 
 feed_name = 'WIRED DESIGN'
-url = ['https://www.wired.com/category/tech/feed/', 'https://www.wired.com/category/design/feed/', 'https://www.wired.com/category/design/feed/']
+url = ['https://www.wired.com/category/tech/feed/', 'https://www.wired.com/category/business/feed/', 'https://www.wired.com/category/design/feed/']
 #url = 'https://www.wired.com/category/design/feed/'
 
 def actualizarFuentes():
