@@ -11,18 +11,6 @@
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 </style>
-<!--
-{% load static %}
-<script type="text/javascript" src="{% static "mxqueryjs/mxqueryjs.nocache.js" %}"></script>
-<script type="application/xquery">declare function local:get_all($uri as xs:string, $criterio as xs:string, $lugar as xs:string) {
-  for $i in doc($uri)/item
-  (:where fn:contains($i/@$lugar, $criterio):)
-  where $i/@lugar = $criterio
-  return <a href="{ $i/@link }"> $i/title , $i/</a>
-};
-local:get_all('','','')
-</script>
--->
 </head>
 <body>
 <!-- Navbar -->
@@ -78,7 +66,7 @@ local:get_all('','','')
           <div class="w3-container w3-white" >
             {% if all_items %}
               {% for elem in all_items %}
-                 <li> <a href= {{elem.post_link}}>{{ elem }}</a></li>
+                 <li> <a href= {{elem.post_link}}>{{ elem.post_title }}</a></li>
               {% endfor %}
           {% else %}
               <p>No hay resultados para mostrar</p>
@@ -93,7 +81,7 @@ local:get_all('','','')
             <!--TODO: Resultados de filtrado>-->
           {% if regex_list %}
               {% for elem in regex_list %}
-                  <li><a href= {{elem.post_link}}>{{ elem }}</a></li>
+                  <li><a href= {{elem.post_link}}>{{ elem.post_title }}</a></li>
               {% endfor %}
           {% else %}
               <p>No hay resultados para mostrar</p>
@@ -107,30 +95,6 @@ local:get_all('','','')
           </div>
           <div class="w3-container w3-white">
             
-          
-          <!--{% declare function filter-rss ($url)
-            {
-              for $b in document($url)/rss/channel/item
-                row($b/link/text(), $b/title/text())
-            };
-            
-            define function row ($link, $title)
-            {
-              <a>RSS item <b> {$title}</b> is located at <b>{$link}</b></a>
-            };
-
-          filter-rss("https://www.wired.com/category/gear/feed/") %}-->
-            
-  
-
-            <!--TODO: Resultados de filtrado>
-          {% if xquery_items %}
-              {% for elem in xquery_items %}
-                  <li><a href= {{elem.post_link}}>{{ elem }}</a></li>
-              {% endfor %}
-          {% else %}
-              <p>No hay resultados para mostrar</p>
-          {% endif %} -->
           </div>
         </div>
         </div>
@@ -145,7 +109,7 @@ local:get_all('','','')
             <!--TODO: Resultados de filtrado>-->
           {% if all_items %}
               {% for elem in all_items_wired %}
-                 <li> <a href= {{elem.post_link}}>{{ elem }}</a></li>
+                 <li> <a href= {{elem.post_link}}>{{ elem.post_title }}</a></li>
               {% endfor %}
           {% else %}
               <p>No hay resultados para mostrar</p>
@@ -160,7 +124,7 @@ local:get_all('','','')
             <!--TODO: Resultados de filtrado>-->
           {% if regex_list_wired %}
               {% for elem in regex_list_wired %}
-                  <li><a href= {{elem.post_link}}>{{ elem }}</a></li>
+                  <li><a href= {{elem.post_link}}>{{ elem.post_title }}</a></li>
               {% endfor %}
           {% else %}
               <p>No hay resultados para mostrar</p>
@@ -173,14 +137,6 @@ local:get_all('','','')
             <p><b>Filtrado XQuery</b></p>
           </div>
           <div class="w3-container w3-white">
-            <!--TODO: Resultados de filtrado>-->
-          {% if xquery_items_wired %}
-              {% for elem in xquery_items_wired %}
-                  <li><a href= {{elem.post_link}}>{{ elem.post_title }}</a></li>
-              {% endfor %}
-          {% else %}
-              <p>No hay resultados para mostrar</p>
-          {% endif %}
           </div>
         </div>
         </div>

@@ -40,6 +40,9 @@ en la Web de cada una de las dependencias académicas. Este directorio fue const
 
       </div>
     </div>
+    <div class="w3-white" align="center">
+    {% include 'ddv_example/index.html' %}
+    </div>
   </div>
 
 <!-- Footer -->
@@ -48,31 +51,6 @@ en la Web de cada una de las dependencias académicas. Este directorio fue const
 </footer>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
-var BBCxml;
-
-function postData() {
-    $.ajax({
-        type: "POST",
-        //url: "https://raw.githubusercontent.com/jj-diaz1067/BigDataAnalytics2017group7/master/RSSSubscriber/BBC_rssfeed.py",
-        url: "BBC_rssfeed_nofile.py",
-        success: callbackFunc
-    });
-}
-
-function callbackFunc(response) {
-    // do something with the response
-    BBCxml =response;
-    console.log(response);
-}
-
-postData();
-
-function refrescarSuscripcion(){
-
-}
-function filtrarNoticias(){
-
-}
 </script>
 
 </body>

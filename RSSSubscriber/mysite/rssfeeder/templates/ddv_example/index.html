@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+    <p>
+         {% blocktrans %}This is a sample application showing usage of django-datatables-view with:{% endblocktrans %}
+    </p>
+    <br />
+    <a href="{% url 'datatables_110' %}">{% trans "Revise en este link el resultado del crawling" %}</a>
+{% endblock %}
