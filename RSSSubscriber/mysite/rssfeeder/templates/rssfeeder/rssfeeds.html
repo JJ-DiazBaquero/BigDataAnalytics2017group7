@@ -11,6 +11,7 @@
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 </style>
+<!--
 {% load static %}
 <script type="text/javascript" src="{% static "mxqueryjs/mxqueryjs.nocache.js" %}"></script>
 <script type="application/xquery">declare function local:get_all($uri as xs:string, $criterio as xs:string, $lugar as xs:string) {
@@ -21,6 +22,7 @@ body {font-family: "Lato", sans-serif}
 };
 local:get_all('','','')
 </script>
+-->
 </head>
 <body>
 <!-- Navbar -->
@@ -174,7 +176,7 @@ local:get_all('','','')
             <!--TODO: Resultados de filtrado>-->
           {% if xquery_items_wired %}
               {% for elem in xquery_items_wired %}
-                  <li><a href= {{elem.post_link}}>{{ elem }}</a></li>
+                  <li><a href= {{elem.post_link}}>{{ elem.post_title }}</a></li>
               {% endfor %}
           {% else %}
               <p>No hay resultados para mostrar</p>
