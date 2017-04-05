@@ -23,6 +23,13 @@ def run_cmd(args_list):
     proc = subprocess.Popen(args_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     return proc.communicate()
 
+def line_prepender(filename, line):
+    with open(filename, 'r+') as f:
+        content = f.read()
+        f.seek(0, 0)
+        f.write(line.rstrip('\r\n') + '\n' + content)
+        f.close()
+
 def taller2(request):
 	template = loader.get_template('rssfeeder/pruebaVisjs.html')
 	context = {}
@@ -51,9 +58,22 @@ def taller2(request):
 
 		#ejecutar script y volver a cargar los datos
 		#ejecutar script y volver a cargar los datos
-	datanodes = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/nodesc.txt", "r")
-	dataedges = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/edgesc.txt", "r")
-	return HttpResponse(template.render(context, request, {"dnodes": datanodes}, {"dedges":dataedges}))
+	
+	line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "nodes:[")
+
+	line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "edges:[")
+	
+	with open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "a") as myfile:
+    	myfile.write("]")
+    	myfile.close()
+	with open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "a") as myfile2:
+    	myfile2.write("]")
+    	myfile2.close()
+	datanodes = json.load("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000")
+	dataedges = json.load("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000")
+	
+	context = {"dnodes": datanodes, "dedges":dataedges}
+	return HttpResponse(template.render(context, request))
 
 def index(request):
 	#latest_question_list = Question.objects.order_by('-pub_date')[:5]
