@@ -52,7 +52,9 @@ def taller2(request):
 
 		#ejecutar script y volver a cargar los datos
 		#ejecutar script y volver a cargar los datos
-	return HttpResponse(template.render(context, request))
+	datanodes = open("/static/pruebavis/nodesc.txt", "r")
+	dataedges = open("/static/pruebavis/edgesc.txt", "r")
+	return HttpResponse(template.render(context, request, {"dnodes": datanodes}, {"dedges":dataedges}))
 
 def index(request):
 	#latest_question_list = Question.objects.order_by('-pub_date')[:5]
