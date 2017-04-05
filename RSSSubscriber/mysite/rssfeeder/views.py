@@ -59,14 +59,14 @@ def taller2(request):
 		#ejecutar script y volver a cargar los datos
 		#ejecutar script y volver a cargar los datos
 	
-	line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "nodes:[")
-	line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "edges:[")
+	#line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "nodes:[")
+	#line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "edges:[")
 	
-	myfile = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "a")
-	myfile.write("]")
+	#myfile = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "a")
+	#myfile.write("]")
 	#myfile.close()
-	myfile2 = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "a")
-	myfile2.write("]")
+	#myfile2 = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "a")
+	#myfile2.write("]")
 	#myfile2.close()
 
 	datanodes = json.loads("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000")
