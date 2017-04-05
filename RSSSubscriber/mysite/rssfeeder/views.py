@@ -48,20 +48,19 @@ def taller2(request):
 		arrend = request.POST.get('enddate', '').split('-')
 		enddate = str(arrend[0])+'/'+str(arrend[1])+'/'+str(arrend[2])
 		print "Fecha fin:"+enddate
-        cmd = ['ssh', 'bigdata7@172.24.99.76', 'spark-submit', '--master', 'yarn-client', '--num-executors', '40', '/home/bigdata7/DJANGOTaller2-master/MapsFiltro.py', criterio, initdate, enddate]
-        try:
+		cmd = ['ssh', 'bigdata7@172.24.99.76', 'spark-submit', '--master', 'yarn-client', '--num-executors', '40', '/home/bigdata7/DJANGOTaller2-master/MapsFiltro.py', criterio, initdate, enddate]
+		try:
         	#cmd = "ssh bigdata7@172.24.99.76 'spark-submit --master yarn-client --num-executors 40 /home/bigdata7/DJANGOTaller2-master/MapsFiltro.py " +criterio+" "+ initdate+" "+ enddate+"'"
-        	run_cmd(cmd)
-        except OSError:
-        	print 'OSError.....'
+			run_cmd(cmd)
+		except OSError:
+			print 'OSError.....'
         #run_cmd(cmd)
 
 		#ejecutar script y volver a cargar los datos
 		#ejecutar script y volver a cargar los datos
 	
 	line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "nodes:[")
-
-    line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "edges:[")
+	line_prepender("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "edges:[")
 	
 	myfile = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000", "a")
 	myfile.write("]")
