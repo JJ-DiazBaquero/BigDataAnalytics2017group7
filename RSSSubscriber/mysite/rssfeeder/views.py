@@ -49,7 +49,6 @@ def taller2(request):
         	print 'OSError.....'
         #run_cmd(cmd)
 
-
 		#ejecutar script y volver a cargar los datos
 		#ejecutar script y volver a cargar los datos
 	datanodes = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/nodesc.txt", "r")
