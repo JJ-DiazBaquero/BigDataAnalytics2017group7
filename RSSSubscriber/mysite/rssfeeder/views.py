@@ -66,8 +66,8 @@ def taller2(request):
 	myfile.write("]")
 	myfile.close()
 	myfile2 = open("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000", "a")
-	mfile2.write("]")
-	mfile2.close()
+	myfile2.write("]")
+	myfile2.close()
 	datanodes = json.load("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/n1184/part-00000")
 	dataedges = json.load("/home/estudiante/BigDataT2/BigDataAnalytics2017group7/RSSSubscriber/mysite/rssfeeder/static/pruebavis/r1184/part-00000")
 	
