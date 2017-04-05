@@ -7,12 +7,52 @@ from django.db.models import Q
 from django.views.generic import TemplateView
 from django_datatables_view.base_datatable_view import BaseDatatableView
 from models import Profesor
+
+import sys
+
 import backend
+import subprocess
+
 
 #from BBC_rssfeed_nofile import actualizarFuentes
 import BBC_rssfeed_nofile
 import WIRED_rssfeed_nofile
 
+def run_cmd(args_list):
+    print('Running system command: {0}'.format(' '.join(args_list)))
+    proc = subprocess.Popen(args_list, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return proc.communicate()
+
+def taller2(request):
+	template = loader.get_template('rssfeeder/pruebaVisjs.html')
+	context = {}
+	criterio =""
+	initdate = ""
+	enddate=""
+	if request.method == 'POST':
+		print 'Realizando busqueda...'
+		lugar = request.POST.get('searchin', '')
+		print "Busca en"+lugar
+		criterio = request.POST.get('criteriobusq', '')
+		print 'Busca...'+criterio
+		arrinit = request.POST.get('initdate', '').split('-')
+		initdate = str(arrinit[0])+'/'+str(arrinit[1])+'/'+str(arrinit[2])
+		print "Fecha Inicio:"+initdate
+		arrend = request.POST.get('enddate', '').split('-')
+		enddate = str(arrend[0])+'/'+str(arrend[1])+'/'+str(arrend[2])
+		print "Fecha fin:"+enddate
+        cmd = ['ssh', 'bigdata7@172.24.99.76', 'spark-submit', '--master', 'yarn-client', '--num-executors', '40', '/home/bigdata7/DJANGOTaller2-master/MapsFiltro.py', criterio, initdate, enddate]
+        try:
+        	#cmd = "ssh bigdata7@172.24.99.76 'spark-submit --master yarn-client --num-executors 40 /home/bigdata7/DJANGOTaller2-master/MapsFiltro.py " +criterio+" "+ initdate+" "+ enddate+"'"
+        	run_cmd(cmd)
+        except OSError:
+        	print 'OSError.....'
+        #run_cmd(cmd)
+
+
+		#ejecutar script y volver a cargar los datos
+		#ejecutar script y volver a cargar los datos
+	return HttpResponse(template.render(context, request))
 
 def index(request):
 	#latest_question_list = Question.objects.order_by('-pub_date')[:5]
@@ -89,6 +129,8 @@ class OrderListJson(BaseDatatableView):
         search = self.request.GET.get(u'search[value]', None)
         if search:
             qs = qs.filter(name__istartswith=search)
+
+
 
 class IndexView(TemplateView):
     template_name = 'ddv_example/index.html'

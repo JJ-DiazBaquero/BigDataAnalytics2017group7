@@ -3,7 +3,8 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
+    sys.path.append("/Users/JCAMILORT/Documents/Uniandes/2017-I/BigData/Taller1/BigDataAnalytics2017group7/RSSSubscriber/mysite")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
